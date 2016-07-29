@@ -1,0 +1,22 @@
+{
+  "name": "firstcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "mocha ./**/*.spec.js --compilers js:babel-core/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-stage-2": "^6.11.0",
+    "expect": "^1.20.2",
+    "expect-jsx": "^2.6.0",
+    "mocha": "^2.5.3",
+    "react": "^15.2.1",
+    "react-addons-test-utils": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}
